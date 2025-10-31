@@ -1,0 +1,9 @@
+{
+  "name": "DualMotorBasicAdapter",
+  "version": "1.0.0",
+  "description": "Dual Motor Basic Adapter",
+  "authors": ["Roberto"],
+  "build": {
+    "srcFilter": "+<*>"
+  }
+}

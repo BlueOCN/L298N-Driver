@@ -1,0 +1,9 @@
+{
+  "name": "SingleMotorAdapter",
+  "version": "1.0.0",
+  "description": "Single Motor Adapter",
+  "authors": ["Roberto"],
+  "build": {
+    "srcFilter": "+<*>"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "SingleMotorDoubleCurrentAdapter",
+  "version": "1.0.0",
+  "description": "Single Motor Double Current Adapter",
+  "authors": ["Roberto"],
+  "build": {
+    "srcFilter": "+<*>"
+  }
+}

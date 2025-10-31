@@ -1,0 +1,7 @@
+{
+    "C_Cpp.default.compilerPath": "C:/Users/Roberto/.platformio/packages/toolchain-atmelavr/bin/avr-gcc.exe",
+    "files.associations": {
+        "*.dbclient-js": "javascript",
+        "new": "cpp"
+    }
+}

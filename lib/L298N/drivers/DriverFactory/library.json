@@ -1,0 +1,9 @@
+{
+  "name": "factory",
+  "version": "1.0.0",
+  "description": "Motor driver factory",
+  "authors": ["Roberto"],
+  "build": {
+    "srcFilter": "+<*>"
+  }
+}

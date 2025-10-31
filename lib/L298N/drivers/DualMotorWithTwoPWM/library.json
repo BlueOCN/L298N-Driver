@@ -1,0 +1,9 @@
+{
+  "name": "DualMotorWithTwoPWMDriver",
+  "version": "1.0.0",
+  "description": "Dual Motor With Two PWM Driver",
+  "authors": ["Roberto"],
+  "build": {
+    "srcFilter": "+<*>"
+  }
+}

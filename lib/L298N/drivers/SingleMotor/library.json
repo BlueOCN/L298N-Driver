@@ -1,0 +1,9 @@
+{
+  "name": "SingleMotorDriver",
+  "version": "1.0.0",
+  "description": "Single Motor driver",
+  "authors": ["Roberto"],
+  "build": {
+    "srcFilter": "+<*>"
+  }
+}

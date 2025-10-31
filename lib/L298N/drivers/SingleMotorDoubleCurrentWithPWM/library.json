@@ -1,0 +1,9 @@
+{
+  "name": "SingleMotorDoubleCurrentWithPWMDriver",
+  "version": "1.0.0",
+  "description": "Single Motor Double Current With PWM Driver",
+  "authors": ["Roberto"],
+  "build": {
+    "srcFilter": "+<*>"
+  }
+}
