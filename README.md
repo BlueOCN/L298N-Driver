@@ -1,5 +1,8 @@
-# L298N Motor Driver Library for Arduino
+# ST L298N Dual Full Bridge Driver for Arduino
 🚀 A flexible and modular library for controlling DC motors using the L298N H-Bridge driver. Designed for rapid prototyping and scalable motor control across single and dual motor setups.
+[Click here to access L298N datasheet!](https://www.st.com/resource/en/datasheet/l298.pdf "L298N's Datasheet")
+
+## ![L298N Dual H Bridge DC Stepper Motor Module Twins Chip 3-550x550w](https://user-images.githubusercontent.com/107767647/174517043-9c2c1b10-d21c-4f86-a766-66006bcef72f.jpg)
 
 ## 📦 Features
 - Supports 7 control modes including SingleMotor and DualMotorBasic
@@ -7,6 +10,15 @@
 - Type-safe parameter objects for initialization and runtime control
 - Clean separation of concerns for embedded architecture
 - Easy integration with PlatformIO and Arduino IDE
+
+## ⚠️ Caution
+The L298N Driver Module has a 5V regulator that can be enabled/disabled using a jumper.
+
+| Pin | With Jumper | Without Jumper |
+|-|-|-|
+| +12V | Expects an external voltage source of +12V | Expects an external voltage source of up to +30V |
+| +5V | Regulator provides a regulated voltage of +5V | Expects an external voltage source of +5V |
+| GND | Shared ground | Shared ground or Isolated ground |
 
 ## 🛠 Installation
 Clone or download the repository and include it in your Arduino or PlatformIO project.
@@ -43,12 +55,22 @@ void setup() {
 
 void loop() {
   StartParams sp;
+  StopParams sop;
+
   sp.setMotor(MotorInstance::ALL);
   sp.setDirection(MotorDirection::CLOCKWISE);
   driver.start(sp);
   delay(2000);
 
-  StopParams sop;
+  sp.setMotor(MotorInstance::ALL);
+  driver.stop(sop);
+  delay(1000);
+
+  sp.setMotor(MotorInstance::ALL);
+  sp.setDirection(MotorDirection::COUNTER_CLOCKWISE);
+  driver.start(sp);
+  delay(2000);
+
   sp.setMotor(MotorInstance::ALL);
   driver.stop(sop);
   delay(1000);
