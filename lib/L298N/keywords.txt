@@ -1,0 +1,37 @@
+########################################
+# Syntax highlighting for L298N Library
+########################################
+
+# Class names
+L298N   KEYWORD1
+Pins    KEYWORD1
+L298N_Pins_Builder  KEYWORD1
+BeginParams KEYWORD1
+StartParams KEYWORD1
+StopParams  KEYWORD1
+
+# Constants
+MotorInstance::ALL  LITERAL1
+MotorInstance::M1   LITERAL1
+MotorInstance::M2   LITERAL1
+MotorDirection::CLOCKWISE   LITERAL1
+MotorDirection::COUNTER_CLOCKWISE   LITERAL1
+Mode::SingleMotor   LITERAL1
+Mode::DualMotorBasic    LITERAL1
+Mode::SingleMotorWithPWM    LITERAL1
+Mode::DualMotorWithTwoPWM   LITERAL1
+
+# Functions
+begin   KEYWORD2
+start   KEYWORD2
+stop    KEYWORD2
+setMotor    KEYWORD2
+setDirection    KEYWORD2
+setPwm  KEYWORD2
+setIn1Pin   KEYWORD2
+setIn2Pin   KEYWORD2
+setIn3Pin   KEYWORD2
+setIn4Pin   KEYWORD2
+setEnAPin   KEYWORD2
+setEnBPin   KEYWORD2
+build   KEYWORD2
