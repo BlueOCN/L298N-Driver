@@ -1,9 +1,0 @@
-{
-  "name": "DualMotorWithTwoPWMAdapter",
-  "version": "1.0.0",
-  "description": "Dual Motor With Two PWM Adapter",
-  "authors": ["Roberto"],
-  "build": {
-    "srcFilter": "+<*>"
-  }
-}

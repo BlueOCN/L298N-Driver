@@ -1,9 +1,0 @@
-{
-  "name": "SingleMotorDoubleCurrentDriver",
-  "version": "1.0.0",
-  "description": "Single Motor Double Current driver",
-  "authors": ["Roberto"],
-  "build": {
-    "srcFilter": "+<*>"
-  }
-}

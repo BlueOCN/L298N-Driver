@@ -1,9 +1,0 @@
-{
-  "name": "SingleMotorWithPWMDriver",
-  "version": "1.0.0",
-  "description": "Single Motor With PWM Driver",
-  "authors": ["Roberto"],
-  "build": {
-    "srcFilter": "+<*>"
-  }
-}

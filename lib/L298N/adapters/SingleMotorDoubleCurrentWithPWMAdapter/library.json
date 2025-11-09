@@ -1,9 +1,0 @@
-{
-  "name": "SingleMotorDoubleCurrentWithPWMAdapter",
-  "version": "1.0.0",
-  "description": "Single Motor Double Current With PWM Adapter",
-  "authors": ["Roberto"],
-  "build": {
-    "srcFilter": "+<*>"
-  }
-}

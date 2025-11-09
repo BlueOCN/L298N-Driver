@@ -1,8 +1,18 @@
 {
   "name": "L298N",
   "version": "1.0.0",
-  "description": "L298N driver",
-  "authors": ["Roberto"],
+  "keywords": ["motor","l298n","driver"],
+  "description": "L298N motor driver library",
+  "author": {
+    "name": "Roberto Gonzalez",
+    "email": "robertogonzalez@email.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BlueOCN/L298N-Driver"
+  },
+  "frameworks": ["arduino"],
+  "platforms": ["atmelavr","espressif32","atmelsam"],
   "build": {
     "srcFilter": "+<*>"
   }

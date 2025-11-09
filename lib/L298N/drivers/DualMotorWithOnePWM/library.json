@@ -1,9 +1,0 @@
-{
-  "name": "DualMotorWithOnePWMDriver",
-  "version": "1.0.0",
-  "description": "Dual Motor With One PWM Driver",
-  "authors": ["Roberto"],
-  "build": {
-    "srcFilter": "+<*>"
-  }
-}

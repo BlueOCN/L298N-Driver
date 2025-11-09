@@ -1,9 +1,0 @@
-{
-  "name": "DualMotorBasicDriver",
-  "version": "1.0.0",
-  "description": "Dual Motor Basic Driver",
-  "authors": ["Roberto"],
-  "build": {
-    "srcFilter": "+<*>"
-  }
-}

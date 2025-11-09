@@ -1,9 +1,0 @@
-{
-  "name": "SingleMotorWithPWMAdapter",
-  "version": "1.0.0",
-  "description": "Single Motor With PWM Adapter",
-  "authors": ["Roberto"],
-  "build": {
-    "srcFilter": "+<*>"
-  }
-}
