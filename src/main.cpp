@@ -2,7 +2,7 @@
 #include <L298N/L298N_Driver.h>
 
 Pins pins = L298N_Pins_Builder().setIn1Pin(2).setIn2Pin(3).build();
-L298N driver = L298N(Mode::SingleMotor, pins);
+L298N driver = L298N(SingleMotor, pins);
 
 void setup() {
   BeginParams bp;
